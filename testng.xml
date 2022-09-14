@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd"><suite name="All Test Suite">
+    <test verbose="2" preserve-order="true" name="D:/ideadm/reggie_take_out">
+        <classes><class name="com.itheima.reggie.controller.AddressBookControllerTest"><methods>
+            <include name="testList"/>
+            <include name="testSave"/><include name="testSetdefault"/>
+            <include name="testGet"/><include name="testGetDefault"/>
+            <include name="testUpdate"/><include name="testDelete"/></methods>
+        </class><class name="com.itheima.reggie.controller.CategoryControllerTest"><methods>
+            <include name="testSave"/>
+            <include name="testPage"/>
+            <include name="testUpdate"/></methods>
+        </class></classes>
+    </test></suite>
